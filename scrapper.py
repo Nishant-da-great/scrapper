@@ -1,6 +1,19 @@
+# go to git bash 
+# git config -- global user.name ''
+# same with gmail
+
+# git init
+# git status ==> if you waant to check what the status of files is
+# git add. 
+# git commit -m "your message here"
+# copy paste git code from git hub
+
 from bs4 import BeautifulSoup
 import requests
 import json
+
+
+
 
 url = "http://books.toscrape.com/"
 def scrape_books(url):
