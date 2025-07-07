@@ -8,9 +8,9 @@
 # git commit -m "your message here"
 # copy paste git code from git hub
 # git push ==> to send
-import json
 from bs4 import BeautifulSoup
 import requests
+import json
 
 
 
@@ -25,7 +25,7 @@ def scrape_books(url):
     
 
 
-     response.encoding = response.apparent_encoding
+     
      
      # beautiful soup class ko object banaune
 
@@ -67,7 +67,7 @@ with open('books.json' , 'w') as f:
 
 # status 200 aye matra garna milxa
 
-
+# git hub
 
 
 
