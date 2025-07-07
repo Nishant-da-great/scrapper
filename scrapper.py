@@ -7,10 +7,11 @@
 # git add. 
 # git commit -m "your message here"
 # copy paste git code from git hub
-
+# git push ==> to send
+import json
 from bs4 import BeautifulSoup
 import requests
-import json
+
 
 
 
