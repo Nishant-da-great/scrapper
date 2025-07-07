@@ -13,6 +13,5 @@ def for_scraping(url):
 
 # purai html file input bhaisakyo aba tesbata value nikalna
 
-    books_det = soup.find_all('atricle',class_='product.pod'
-                          
-                          )
+    books_det = soup.find_all('atricle',class_='product.pod')
+    
